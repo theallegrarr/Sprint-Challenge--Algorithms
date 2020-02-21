@@ -5,7 +5,7 @@
 a) O(n) because the code has a single loop which will only iterate n number of times
 
 
-b) O(n^2) because the loop in the code has another loop nested inside it
+b) O(n log(n)) because the loop in the code has another loop nested inside it and the second loop is cutting its work by half everytime it is called (log(n))
 
 
 c) O(n) even if there is no loop in this code, the recursive calls to bunnyEars will cause the code to be repeated n number of times based on how many bunnies are being counted
